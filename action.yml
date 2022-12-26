@@ -1,0 +1,17 @@
+name: "Next.js Cache"
+description: "Cache Next.js build outputs in GitHub Actions."
+author: "jongwooo <jongwooo.han@gmail.com>"
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache@v3
+      with:
+        path: |
+          ${{ github.workspace }}/.next/cache
+        key: ${{ runner.os }}-next-cache-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+        restore-keys: |
+          ${{ runner.os }}-next-cache-
+branding:
+  icon: "archive"
+  color: "black"
