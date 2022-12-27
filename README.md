@@ -1,6 +1,6 @@
 # next-cache
 
-This action allows [caching Next.js build outputs](https://nextjs.org/docs/advanced-features/ci-build-caching) in GitHub Actions.
+This action allows [caching Next.js](https://nextjs.org/docs/advanced-features/ci-build-caching) for faster application rebuilds.
 
 [![LICENSE](https://img.shields.io/github/license/jongwooo/next-cache?color=blue)](LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/jongwooo/next-cache/badge)](https://www.codefactor.io/repository/github/jongwooo/next-cache)
@@ -31,10 +31,10 @@ This action currently caches the following directories:
 - uses: jongwooo/next-cache@main
 
 - name: Install dependencies
-  run: yarn install
+  run: npm ci
 
 - name: Build
-  run: yarn build
+  run: npm run build
 ```
 
 ## Contributing

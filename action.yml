@@ -1,5 +1,5 @@
 name: "NextJS Cache"
-description: "Cache Next.js build outputs in GitHub Actions."
+description: "Cache Next.js for faster application rebuilds."
 author: "jongwooo <jongwooo.han@gmail.com>"
 
 runs:
