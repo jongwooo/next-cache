@@ -1,4 +1,4 @@
-name: "Next.js Cache"
+name: "NextJS Cache"
 description: "Cache Next.js build outputs in GitHub Actions."
 author: "jongwooo <jongwooo.han@gmail.com>"
 
