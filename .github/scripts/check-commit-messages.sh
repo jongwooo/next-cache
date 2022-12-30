@@ -15,7 +15,7 @@ if [[ $fail ]]
 then
     echo ""
     echo "Above ↑ commits don't conform to commit message format:"
-    echo "https://github.com/jongwooo/gatsby-cache/blob/main/.github/CONTRIBUTING.md#commit-message-rules"
+    echo "https://github.com/jongwooo/next-cache/blob/main/.github/CONTRIBUTING.md#commit-message-rules"
     echo ""
     echo "Please fix."
     exit 1
