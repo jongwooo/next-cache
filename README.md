@@ -28,7 +28,7 @@ This action currently caches the following directories:
   with:
    node-version: 18
 
-- uses: jongwooo/next-cache@main
+- uses: jongwooo/next-cache@v1
 
 - name: Install dependencies
   run: npm ci
