@@ -1,4 +1,4 @@
-# next-cache
+# NextJS Cache
 
 This action allows [caching Next.js](https://nextjs.org/docs/advanced-features/ci-build-caching) for faster application rebuilds.
 
